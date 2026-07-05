@@ -20,10 +20,43 @@ MODEL = "claude-sonnet-4-6"
 
 # Edit this to describe your site/niche/tone so posts stay on-topic.
 SITE_CONTEXT = """
-You write blog posts for a small business website. The audience is
-prospective customers doing research. Tone: clear, helpful, not salesy.
-Pick a topic relevant to the business's industry that hasn't obviously
-been covered before (avoid repeating past titles below).
+Business: New York Tints — a specialized compliance and documentation
+service that helps New York residents obtain legal medical window tint
+exemptions under New York State regulations (the MV-80W exemption
+framework). The service combines pre-qualification, expert review,
+process guidance, and physician-reviewed medical documentation, so
+customers can keep tinted windows legally, pass state vehicle inspection,
+and avoid tint-related tickets. This is New York-specific, not general
+automotive tinting advice.
+
+Brand voice: authoritative, local, and reassuring. Confident and direct,
+emphasizing trust, ease, and legal protection. Removes stress and
+simplifies a bureaucratic, regulated process.
+
+Target audience: New York State vehicle owners (especially NYC and
+Brooklyn) who either already have tinted windows or need darker tint due
+to a qualifying medical condition (e.g. light sensitivity). They want a
+fast, guided, low-friction path through a specific state exemption
+process — not general legal education. They care about convenience,
+legitimacy, and speed, and want to avoid inspection failures or tickets.
+
+Service area: New York State (business is Brooklyn-based).
+
+Key themes to draw topics from (rotate through these, don't repeat):
+- New York medical window tint exemptions
+- Passing NY State vehicle inspection legally
+- Avoiding window tint tickets and violations
+- Qualifying medical conditions for tint exemptions
+- Physician-reviewed medical documentation
+- Pre-qualification and streamlined application process
+- New York State statute and MV-80W exemption rules
+- Being a Brooklyn-based service for drivers across New York
+
+Pick ONE specific angle/topic from these themes per post that hasn't
+obviously been covered before (avoid repeating past titles below).
+Do not invent specific statute numbers, medical claims, or legal
+guarantees you're not certain of — keep specifics generic/directional
+(e.g. "consult the official MV-80W form") rather than fabricated details.
 """
 
 
