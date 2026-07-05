@@ -1,6 +1,6 @@
 (function () {
   // EDIT ME: point this at your posts.json once it's hosted (see README).
-  var POSTS_URL = "https://YOUR-USERNAME.github.io/YOUR-REPO/posts.json";
+  var POSTS_URL = "https://atstizzle.github.io/my-blog/posts.json";
   var CONTAINER_ID = "soro-blog";
 
   function escapeHtml(str) {
