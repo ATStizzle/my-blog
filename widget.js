@@ -1,6 +1,6 @@
 (function () {
   // EDIT ME: point this at your posts.json once it's hosted (see README).
-  var POSTS_URL = "https://atstizzle.github.io/my-blog/posts.json";
+  var POSTS_URL = "https://atstizzle.github.io/my-blog/posts.json"; // redirects to blog.nytints.com once the custom domain is set
   var CONTAINER_ID = "soro-blog";
 
   function escapeHtml(str) {
@@ -26,6 +26,20 @@
 
     var html = '<div class="ai-blog-list">';
     posts.forEach(function (post, i) {
+      // Each post has its own page on blog.nytints.com: link to it so Google
+      // credits that page (posts.json from the build includes post.url).
+      if (post.url) {
+        html += [
+          '<article class="ai-blog-post" data-index="' + i + '">',
+          '<h2><a class="ai-blog-title" href="' + escapeHtml(post.url) + '">' + escapeHtml(post.title) + "</a></h2>",
+          '<p class="ai-blog-meta">' + formatDate(post.date) + "</p>",
+          '<p class="ai-blog-excerpt">' + escapeHtml(post.meta_description) + "</p>",
+          '<a class="ai-blog-toggle" href="' + escapeHtml(post.url) + '">Read article →</a>',
+          "</article>",
+        ].join("");
+        return;
+      }
+      // Fallback (old posts.json without page URLs): expand in place.
       html += [
         '<article class="ai-blog-post" data-index="' + i + '">',
         "<h2>" + escapeHtml(post.title) + "</h2>",

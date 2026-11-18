@@ -49,3 +49,15 @@ Edit the `SITE_CONTEXT` string near the top of `generate_post.py` — describe y
 - GitHub Actions: free for public repos (2,000 min/month free tier, this uses under a minute per run).
 - GitHub Pages: free.
 - Claude API: pay-per-token, typically a few cents per ~700-word post.
+
+## SEO: every post gets its own page (blog.nytints.com)
+- `build_site.py` turns `posts.json` into a real website in `_site/`: one page per post
+  (`blog.nytints.com/<post-slug>/`), a blog home page, `sitemap.xml`, `robots.txt`, an RSS feed,
+  and Google structured data (BlogPosting + breadcrumbs).
+- The **Build and deploy blog** workflow runs it on every push and right after each weekly post,
+  then publishes to GitHub Pages.
+- The Squarespace widget now lists posts and links to their pages instead of expanding them inline.
+- Business details (phone, address, links) are set at the top of `build_site.py`.
+
+One-time setup: Settings → Pages → Source: **GitHub Actions**; Custom domain: `blog.nytints.com`;
+add a DNS CNAME record `blog` → `atstizzle.github.io` in Squarespace Domains.
