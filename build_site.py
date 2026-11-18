@@ -109,6 +109,11 @@ footer.site{border-top:1px solid var(--line);margin-top:64px;padding:28px 0;font
 footer.site a{color:var(--muted)}
 .disclaimer{font-size:13px;margin-top:12px}
 @media (max-width:640px){nav a:not(.btn){display:none}}
+@media (prefers-color-scheme:dark){
+:root{--ink:#ECEAE6;--muted:#A9B1AF;--line:#2A3130;--bg:#121616;--soft:#1E2423}
+nav a.btn,.btn-lg{background:#D4967D;color:#fff !important}
+.btn-ghost{border-color:#ECEAE6;color:#ECEAE6}
+}
 """
 
 
