@@ -64,6 +64,8 @@ FIXED FACTS — every post must agree with these. Never contradict them:
   medical need. Never say there is "no limit", and never quote a specific VLT
   percentage for exempt vehicles.
 - The windshield cannot be tinted, even with an exemption.
+- Eligibility requires a New York State driver's license. The vehicle does NOT need
+  to be registered in New York — never say it does.
 
 Do not invent specific statute numbers, medical claims, or legal
 guarantees you're not certain of — keep specifics generic/directional
