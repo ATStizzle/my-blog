@@ -54,6 +54,17 @@ Key themes to draw topics from (rotate through these, don't repeat):
 
 Pick ONE specific angle/topic from these themes per post that hasn't
 obviously been covered before (avoid repeating past titles below).
+FIXED FACTS — every post must agree with these. Never contradict them:
+- A NY medical tint exemption does NOT expire and never needs renewing. It stays
+  valid as long as the owner keeps the vehicle it covers. Never mention
+  expiration dates, renewal cycles or "keeping it current".
+- The exemption is tied to a specific vehicle. A different vehicle needs new paperwork.
+- Tint tickets in New York do NOT add points to your driver's license.
+- With an exemption, the darkness limit is set by the reviewing physician based on
+  medical need. Never say there is "no limit", and never quote a specific VLT
+  percentage for exempt vehicles.
+- The windshield cannot be tinted, even with an exemption.
+
 Do not invent specific statute numbers, medical claims, or legal
 guarantees you're not certain of — keep specifics generic/directional
 (e.g. "consult the official MV-80W form") rather than fabricated details.
