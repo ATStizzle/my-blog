@@ -314,6 +314,11 @@ def main():
     write(f"{OUT}/posts.json", json.dumps(with_urls, indent=2, ensure_ascii=False))
     shutil.copy("widget.js", f"{OUT}/widget.js")
 
+    # Instagram Story images (Instagram needs them at a public URL).
+    if os.path.isdir("stories"):
+        shutil.copytree("stories", f"{OUT}/stories",
+                        ignore=shutil.ignore_patterns("*.py", "*.md"))
+
     print(f"Built {len(posts)} post pages into {OUT}/")
 
 
