@@ -47,5 +47,14 @@
     "headline": "Tint failing inspection? There's a legal path",
     "file": "stories/2026-11-24.jpg",
     "media_id": "18041529050846538"
+  },
+  {
+    "date": "2026-11-25",
+    "type": "graphic",
+    "topic": "Do you qualify? (passenger-based exemption)",
+    "headline": "Is it your passenger who needs the shade?",
+    "file": "stories/2026-11-25.jpg",
+    "media_id": "18134926183745395",
+    "note": "First create_story call failed (media container not found); succeeded on one retry"
   }
 ]
