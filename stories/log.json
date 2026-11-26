@@ -56,5 +56,13 @@
     "file": "stories/2026-11-25.jpg",
     "media_id": "18134926183745395",
     "note": "First create_story call failed (media container not found); succeeded on one retry"
+  },
+  {
+    "date": "2026-11-26",
+    "type": "graphic",
+    "topic": "Blog teaser: Does Your NY Tint Exemption Hold Up on the Thruway?",
+    "headline": "Does your tint exemption work on the Thruway?",
+    "file": "stories/2026-11-26.jpg",
+    "media_id": "18108444521344002"
   }
 ]
